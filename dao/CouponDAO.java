@@ -5,10 +5,9 @@ import java.util.Collection;
 
 import main.Coupon;
 
-/**
- * @author Dan Aronson
- *
- */
+
+
+
 public interface CouponDAO {
 
 	public void createCoupon(Coupon coupon) throws SQLException, InterruptedException;
